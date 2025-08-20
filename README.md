@@ -3,7 +3,9 @@
 This project provides a Dockerised Gradio application for the F5-TTS voice
 cloning model.  It extends the standard Gradio server with additional API
 endpoints to control model loading and unloading and to generate multiple
-clips from a single reference voice.
+clips from a single reference voice.  The web UI exposes buttons for loading
+and unloading the model as well as a tab for generating several clips in one
+go.
 
 ## Features
 
