@@ -24,7 +24,7 @@ python __main__.py
 
 ```bash
 docker build -t custom-f5-tts .
-docker run -p 7860:7860 custom-f5-tts
+docker run -p --gpus all 7860:7860 custom-f5-tts
 ```
 
 The Gradio UI will be available at `http://localhost:7860/`.  The additional
