@@ -17,7 +17,7 @@ go.
 ## Running locally
 
 ```bash
-python -m custom-gradio-f5-tts
+python __main__.py
 ```
 
 ## Docker
