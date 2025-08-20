@@ -1,4 +1,4 @@
-FROM ghcr.io/f5audio/f5-tts:latest
+FROM ghcr.io/swivid/f5-tts:main
 
 WORKDIR /app
 COPY . /app
